@@ -22,7 +22,7 @@ def another_q():
 
 def question():
     print('Что тебя интересует?')
-    quest = input()
+    input()
     answer = random.choice(answers)
     print(f'Думаю...Мой ответ: {answer}')
     another_q()
